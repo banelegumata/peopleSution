@@ -8,7 +8,7 @@ public class DepartmentalSoftwareApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DepartmentalSoftwareApplication.class, args);
-		System.out.println("test pulling on git hub");
+
 	}
 
 }
