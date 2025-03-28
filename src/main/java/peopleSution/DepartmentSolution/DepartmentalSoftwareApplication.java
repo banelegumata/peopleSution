@@ -9,6 +9,7 @@ public class DepartmentalSoftwareApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DepartmentalSoftwareApplication.class, args);
 
+
 	}
 
 }
