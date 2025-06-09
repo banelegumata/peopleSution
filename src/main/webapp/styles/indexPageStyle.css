@@ -1,0 +1,55 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #1f2937; /* Dark navy grey */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Header */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #0f172a; /* Navy */
+}
+
+/* Styled Links as Buttons */
+a {
+  display: inline-block;
+  margin: 12px;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1e3a8a; /* Navy blue */
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+  background-color: #3b82f6; /* Sky blue */
+  transform: translateY(-2px);
+}
+
+a:active {
+  background-color: #1d4ed8; /* Deeper blue for click effect */
+}
+
+/* Optional: Space for future content */
+.container {
+  max-width: 600px;
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.success-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 90%;
+  max-width: 600px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #1e40af;
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h3 {
+  text-align: center;
+  color: #16a34a;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+/* Employee Info */
+.employee-details {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.employee-details p {
+  margin-bottom: 12px;
+}
+
+.employee-details strong {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* Back link */
+.back-home-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-home-link {
+  text-decoration: none;
+  color: #1e40af;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.back-home-link:hover {
+  color: #3b82f6;
+  transform: translateY(-2px);
+}
