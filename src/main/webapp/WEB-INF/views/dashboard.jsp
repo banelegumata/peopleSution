@@ -1,27 +1,16 @@
-<%@ page contentType="text/html; charset=UTF-8" %>
-<!DOCTYPE html>
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
     <title>Dashboard</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="/styles/dashboardPageStyle.css">
 </head>
 <body>
-    <div class="dashboard-container">
+    <div class="container">
         <h3>DASHBOARD</h3>
 
-        <div class="button-container">
-            <a href="${pageContext.request.contextPath}/ManageUsers" class="btn">
-                👥 Manage Users
-            </a>
-
-            <a href="${pageContext.request.contextPath}/ManageDepartments" class="btn">
-                🏢 Manage Departments
-            </a>
-
-            <a href="${pageContext.request.contextPath}/logout" class="btn logout-btn">
-                🔒 Logout
-            </a>
-        </div>
+        <a href="/ManageUsers">Manage Users</a>
+        <a href="/ManageDepartments">Manage Departments</a>
+        <a href="/logout" class="logout-btn">Logout</a>
     </div>
 </body>
 </html>

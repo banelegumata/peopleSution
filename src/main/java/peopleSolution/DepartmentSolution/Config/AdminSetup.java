@@ -4,7 +4,7 @@ package peopleSolution.DepartmentSolution.Config;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import peopleSolution.DepartmentSolution.Entities.CreateNewEmp;
+import peopleSolution.DepartmentSolution.Entities.EmployeeEntity;
 import peopleSolution.DepartmentSolution.Entities.UserCredentials;
 import peopleSolution.DepartmentSolution.Repositories.EmployeeRepository;
 import peopleSolution.DepartmentSolution.Repositories.UserCredentialsRepository;
@@ -26,8 +26,8 @@ public class AdminSetup{
 
             /**checking to see if superuser with fnumber mentioned above exists.
              if not we create a new user row to cater for the fNumber and give it fnumber F0001**/
-            if(employeeRepository.findByfNumber(defaultfNumber).isEmpty()) {
-                CreateNewEmp superAdminEmp  = new CreateNewEmp();
+            if(employeeRepository.findByfNumberIgnoreCase(defaultfNumber).isEmpty()) {
+                EmployeeEntity superAdminEmp  = new EmployeeEntity();
 
                 // place holders for super user - auto generated
                 superAdminEmp .setEmpID("0000000000000");
@@ -37,7 +37,7 @@ public class AdminSetup{
                 superAdminEmp .setEmpActiveStatus(Boolean.valueOf("true"));
                 superAdminEmp.setEmpJobTitle("other");
                 superAdminEmp.setEmpJobDescription("other");
-                superAdminEmp .setFNumber(defaultfNumber);
+                superAdminEmp .setfNumber(defaultfNumber);
 
                 employeeRepository.save(superAdminEmp); // save superAdmin user
 

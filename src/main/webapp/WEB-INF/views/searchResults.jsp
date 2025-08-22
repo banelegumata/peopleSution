@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Search Results</title>
-    <link rel="stylesheet" type="text/css" href="/styles/searchResults.css">
+    <link rel="stylesheet" type="text/css" href="/styles/searchResults5.css">
 </head>
 <body>
     <div class="container">
@@ -12,14 +12,28 @@
         <c:if test="${empty results}">
             <div class="no-results">
                 <p>No matching employees found.
-                <br>please try <a href="/views/search.jsp">Search</a> again </p>
+                <br>please try <a href="/search">Search</a> again </p>
             </div>
         </c:if>
         <c:forEach var="emp" items="${results}">
             <div class="card">
-                <p><strong>Name:</strong> ${emp.empFName} ${emp.empLName}</p>
-                <p><strong>Department:</strong> ${emp.empDepartment}</p>
-                <p><strong>FNumber:</strong> ${emp.fNumber}</p>
+                <div class="card-left">
+                    <p><strong>Name:</strong> ${emp.empFName} ${emp.empLName}</p>
+                    <p><strong>F Number:</strong> ${emp.fNumber}</p>
+                    <p><strong>Department:</strong> ${emp.empDepartment}</p>
+                    <form action="/manage-employee/viewUser" method="post">
+                        <input type="hidden" name="empID" value="${emp.empID}" />
+                        <button type="submit" class="view-button">View</button>
+                    </form>
+                </div>
+                <c:choose>
+                    <c:when test="${empty emp.profileImagePath}">
+                        <img src="/images/default-profile.png" alt="Profile Picture" class="profile-picture" />
+                    </c:when>
+                    <c:otherwise>
+                        <img src="${emp.profileImagePath}" alt="Profile Picture" class="profile-picture" />
+                    </c:otherwise>
+                </c:choose>
             </div>
         </c:forEach>
     </div>

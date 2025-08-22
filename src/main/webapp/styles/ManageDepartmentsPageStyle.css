@@ -1,4 +1,4 @@
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ a:active {
   background-color: #1d4ed8; /* Deeper blue for click effect */
 }
 
-/* Optional: Space for future content */
+/* Container */
 .container {
   max-width: 600px;
   text-align: center;

@@ -8,7 +8,7 @@ import peopleSolution.DepartmentSolution.Repositories.UserCredentialsRepository;
 import java.util.Optional;
 
 @Service
-public class UserLoginService {
+public class   UserLoginService {
     private final UserCredentialsRepository userCredentialsRepository;
     @Autowired
     public UserLoginService(UserCredentialsRepository userCredentialsRepository){

@@ -20,7 +20,7 @@ public class LoginController {
     private UserLoginService loginService;
 
 
-    @PostMapping("/loginUserIn")// callect information from login form
+    @PostMapping("/loginUserIn")// collect information from login form
     public String login(@RequestParam String fNumber,
                         @RequestParam String password,
                         HttpSession session,

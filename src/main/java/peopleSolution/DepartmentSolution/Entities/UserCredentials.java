@@ -51,7 +51,7 @@ public class UserCredentials {
     //creates a link to the employee table by fNumber
     @OneToOne
     @JoinColumn(name = "fNumber", referencedColumnName = "fNumber", insertable = false, updatable = false)
-    private CreateNewEmp employee;
+    private EmployeeEntity employee;
 
     // constructors
     public UserCredentials() {}
@@ -60,11 +60,11 @@ public class UserCredentials {
         this.password = password;
         this.role = role;
     }
-        public CreateNewEmp getEmployee() {
+        public EmployeeEntity getEmployee() {
             return employee;
         }
 
-        public void setEmployee(CreateNewEmp employee) {
+        public void setEmployee(EmployeeEntity employee) {
             this.employee = employee;
         }
     //=====================================

@@ -90,3 +90,26 @@ input[type="submit"]:hover {
     padding-bottom: 80px;
   }
 }
+
+input:invalid,
+select:invalid {
+    border: 1px solid red;
+}
+
+/* Optional: green border for valid fields */
+input:valid,
+select:valid {
+    border: 1px solid green;
+}
+
+.error-hint {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+input:invalid + .error-hint,
+select:invalid + .error-hint {
+    display: block;
+}
+

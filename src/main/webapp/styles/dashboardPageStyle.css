@@ -1,4 +1,4 @@
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +18,8 @@ body {
 }
 
 /* Header */
-h2 {
-  font-size: 2.5rem;
+h3 {
+  font-size: 2rem;
   margin-bottom: 40px;
   color: #0f172a; /* Navy */
 }
@@ -48,7 +48,16 @@ a:active {
   background-color: #1d4ed8; /* Deeper blue for click effect */
 }
 
-/* Optional: Space for future content */
+/* Logout button with red color */
+a.logout-btn {
+  background-color: #dc3545; /* Bootstrap danger red */
+}
+
+a.logout-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* Container */
 .container {
   max-width: 600px;
   text-align: center;
