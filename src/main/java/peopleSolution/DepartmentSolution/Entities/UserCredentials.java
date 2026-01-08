@@ -1,6 +1,7 @@
 package peopleSolution.DepartmentSolution.Entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 
 @Entity
 public class UserCredentials {
@@ -19,12 +20,13 @@ public class UserCredentials {
 
     // FNumber as unique USERNAME for each user
     @Column(name = "fNumber", unique = true, nullable = false)
+    @NotBlank
     private String fNumber;
         public String getfNumber() {
             return fNumber;
         }
         public void setfNumber(String id) {
-            this.fNumber = fNumber;
+            this.fNumber = id;
         }
 
     //=====================================
