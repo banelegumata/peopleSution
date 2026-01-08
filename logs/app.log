@@ -5317,3 +5317,292 @@ java.lang.IllegalArgumentException: Invalid character found in the request targe
 2025-12-17 20:19:50 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Started DepartmentalSoftwareApplicationTests in 2.838 seconds (process running for 13.331)
 2025-12-17 20:19:50 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-12-17 20:19:50 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:06:07 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Config.AdminSetupTest]: AdminSetupTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:06:07 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Config.AdminSetupTest
+2026-01-08 14:06:08 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Starting AdminSetupTest using Java 17.0.6 with PID 27556 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:06:08 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:06:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:06:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:06:11 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:06:12 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:06:13 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:06:13 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:06:14 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:06:14 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:06:14 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Started AdminSetupTest in 6.618 seconds (process running for 7.921)
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:06:15 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:06:15 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:06:15 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:06:15 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:06:15 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Controllers.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:06:15 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Controllers.LoginControllerTest
+2026-01-08 14:06:15 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Starting LoginControllerTest using Java 17.0.6 with PID 27556 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:06:15 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:06:15 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:06:16 [main] INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:06:16 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:06:16 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:06:16 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Started LoginControllerTest in 0.466 seconds (process running for 9.316)
+2026-01-08 14:06:16 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests]: DepartmentalSoftwareApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:06:16 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests
+2026-01-08 14:06:16 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Starting DepartmentalSoftwareApplicationTests using Java 17.0.6 with PID 27556 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:06:16 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:06:16 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:06:16 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:06:16 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:06:16 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:06:17 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-08 14:06:18 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:06:18 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:06:19 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:06:19 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:06:19 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Started DepartmentalSoftwareApplicationTests in 2.858 seconds (process running for 12.3)
+2026-01-08 14:06:19 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:06:19 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:07:15 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Config.AdminSetupTest]: AdminSetupTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:07:15 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Config.AdminSetupTest
+2026-01-08 14:07:16 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Starting AdminSetupTest using Java 17.0.6 with PID 23012 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:07:16 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:07:16 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:07:16 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:07:19 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:07:21 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:07:21 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:07:21 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:07:22 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:07:22 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:07:22 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Started AdminSetupTest in 7.224 seconds (process running for 8.608)
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:07:23 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:07:23 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:07:23 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:07:23 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:07:23 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:07:23 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:07:23 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:07:23 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Controllers.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:07:23 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Controllers.LoginControllerTest
+2026-01-08 14:07:23 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Starting LoginControllerTest using Java 17.0.6 with PID 23012 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:07:23 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:07:24 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:07:24 [main] INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:07:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:07:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2026-01-08 14:07:24 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Started LoginControllerTest in 0.528 seconds (process running for 9.928)
+2026-01-08 14:07:24 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests]: DepartmentalSoftwareApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:07:24 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests
+2026-01-08 14:07:24 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Starting DepartmentalSoftwareApplicationTests using Java 17.0.6 with PID 23012 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:07:24 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:07:24 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:07:24 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:07:25 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:07:25 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:07:25 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-08 14:07:26 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:07:26 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:07:27 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:07:27 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:07:27 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Started DepartmentalSoftwareApplicationTests in 2.724 seconds (process running for 12.797)
+2026-01-08 14:07:27 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:07:27 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:10:17 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Config.AdminSetupTest]: AdminSetupTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:10:17 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Config.AdminSetupTest
+2026-01-08 14:10:17 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Starting AdminSetupTest using Java 17.0.6 with PID 26924 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:10:17 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:10:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:10:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:10:21 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:10:22 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:10:22 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:10:22 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:10:24 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:10:24 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:10:24 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Started AdminSetupTest in 6.88 seconds (process running for 8.211)
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:10:24 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:10:24 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:10:24 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:10:24 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:10:24 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:10:24 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:10:24 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:24 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:10:25 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Controllers.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:10:25 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Controllers.LoginControllerTest
+2026-01-08 14:10:25 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Starting LoginControllerTest using Java 17.0.6 with PID 26924 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:10:25 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:10:25 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:10:25 [main] INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:10:25 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:10:25 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:10:25 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Started LoginControllerTest in 0.51 seconds (process running for 9.665)
+2026-01-08 14:10:25 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests]: DepartmentalSoftwareApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:10:25 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests
+2026-01-08 14:10:25 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Starting DepartmentalSoftwareApplicationTests using Java 17.0.6 with PID 26924 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:10:25 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:10:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:10:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:10:26 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:10:26 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:10:27 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-08 14:10:28 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:10:28 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:10:28 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:10:28 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:10:28 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Started DepartmentalSoftwareApplicationTests in 2.708 seconds (process running for 12.468)
+2026-01-08 14:10:28 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:10:28 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:13:58 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Config.AdminSetupTest]: AdminSetupTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:13:58 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Config.AdminSetupTest
+2026-01-08 14:13:58 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Starting AdminSetupTest using Java 17.0.6 with PID 14752 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:13:58 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:13:59 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:13:59 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:14:02 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:14:03 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:14:03 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:14:04 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:14:05 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:14:05 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:14:05 [main] INFO  peopleSolution.DepartmentSolution.Config.AdminSetupTest - Started AdminSetupTest in 6.982 seconds (process running for 8.192)
+2026-01-08 14:14:05 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Controllers.EmployeeManagementControllerTest$ViewAllUsersTests]: ViewAllUsersTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:14:05 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Controllers.EmployeeManagementControllerTest$ViewAllUsersTests
+2026-01-08 14:14:05 [main] INFO  peopleSolution.DepartmentSolution.Controllers.EmployeeManagementControllerTest$ViewAllUsersTests - Starting EmployeeManagementControllerTest.ViewAllUsersTests using Java 17.0.6 with PID 14752 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:14:05 [main] INFO  peopleSolution.DepartmentSolution.Controllers.EmployeeManagementControllerTest$ViewAllUsersTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:14:06 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:14:06 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:14:06 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:14:06 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:14:06 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-08 14:14:07 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:14:07 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:14:07 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:14:07 [main] INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:07 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:07 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:14:07 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 13 ms
+2026-01-08 14:14:07 [main] INFO  peopleSolution.DepartmentSolution.Controllers.EmployeeManagementControllerTest$ViewAllUsersTests - Started EmployeeManagementControllerTest.ViewAllUsersTests in 2.113 seconds (process running for 10.582)
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:14:08 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:14:08 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:14:08 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:14:08 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:14:08 [main] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /addEmployee
+2026-01-08 14:14:08 [main] WARN  org.springframework.web.servlet.PageNotFound - No endpoint POST /addEmployee.
+2026-01-08 14:14:08 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2026-01-08 14:14:08 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.Controllers.LoginControllerTest]: LoginControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:14:08 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.Controllers.LoginControllerTest
+2026-01-08 14:14:08 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Starting LoginControllerTest using Java 17.0.6 with PID 14752 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:14:08 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:14:09 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:14:09 [main] INFO  org.springframework.boot.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-01-08 14:14:09 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2026-01-08 14:14:09 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2026-01-08 14:14:09 [main] INFO  peopleSolution.DepartmentSolution.Controllers.LoginControllerTest - Started LoginControllerTest in 0.421 seconds (process running for 11.969)
+2026-01-08 14:14:09 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests]: DepartmentalSoftwareApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-08 14:14:09 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration peopleSolution.DepartmentSolution.DepartmentalSoftwareApplication for test class peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests
+2026-01-08 14:14:09 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Starting DepartmentalSoftwareApplicationTests using Java 17.0.6 with PID 14752 (started by F5367611 in C:\Users\f5367611\projects\DepartmentSolution)
+2026-01-08 14:14:09 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:14:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-08 14:14:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2026-01-08 14:14:09 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-08 14:14:09 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:14:10 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-08 14:14:10 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2026-01-08 14:14:10 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2026-01-08 14:14:10 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-08 14:14:10 [main] INFO  peopleSolution.DepartmentSolution.DepartmentalSoftwareApplicationTests - Started DepartmentalSoftwareApplicationTests in 1.268 seconds (process running for 13.287)
+2026-01-08 14:14:10 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:14:10 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-08 14:14:10 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
