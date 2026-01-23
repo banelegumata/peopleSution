@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import peopleSolution.DepartmentSolution.Entities.EmployeeEntity;
 
 import java.time.LocalDateTime;
-
-import static java.time.LocalTime.now;
 @Slf4j
 @Controller
 public class HomeController {
@@ -19,14 +17,14 @@ public class HomeController {
     // Jump to index page from anywhere.
     @GetMapping({"/", "/index"})
     public String home() {
-        System.out.println("home method called time: " + now());
+        log.info("home method called time: {} ", LocalDateTime.now());
         return "index";
     }
 
     // Jump to login page
     @GetMapping("/login")
     public String showLoginPage() {
-        System.out.println("Log in page called at: " + LocalDateTime.now());
+        log.info("Log in page called at: {} ", LocalDateTime.now());
         return "login";
     }
 
@@ -37,13 +35,13 @@ public class HomeController {
     public String showDashboardPage (Model model,HttpSession session){
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+            log.warn("session checker: redirecting has user has not logged in. {}", LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed" + LocalDateTime.now());
+        log.info("session check passed {}", LocalDateTime.now());
 
         //code continues since session check was successful
-        System.out.println("dashboard page called from controller " + LocalDateTime.now());
+        log.info("dashboard page called from controller {} ", LocalDateTime.now());
         return "dashboard";
     }
 
@@ -56,13 +54,13 @@ public class HomeController {
     public String showManageUsersPage (Model model,HttpSession session){
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+            log.warn("session checker: redirecting has user has not logged in. {}" , LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed" + LocalDateTime.now());
+        log.info("session check passed {}", LocalDateTime.now());
 
         //code continues since session check was successful
-        System.out.println("ManageUsers page called from controller " + LocalDateTime.now());
+        log.info("ManageUsers page called from controller {} ", LocalDateTime.now());
         return "ManageUsers";
     }
 
@@ -72,15 +70,15 @@ public class HomeController {
     public String showSearchPage(HttpSession session, Model model) {
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+            log.warn("session checker: redirecting has user has not logged in.{} " , LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed: " + LocalDateTime.now());
+        log.info("session check passed: {}",LocalDateTime.now());
 
         model.addAttribute("employee", new EmployeeEntity());
 
         //code continues since session check was successful
-        System.out.println("search page called at: " + LocalDateTime.now());
+        log.info("search page called at: {}" , LocalDateTime.now());
         return "search";
     }
 
@@ -89,14 +87,14 @@ public class HomeController {
     public String showUploadForm(HttpSession session, Model model) {
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+            log.warn("session checker: redirecting has user has not logged in. {}" ,LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed: " + LocalDateTime.now());
+        log.info("session check passed: " , LocalDateTime.now());
 
         //code continues since session check was successful
         model.addAttribute("employee", new EmployeeEntity());
-        System.out.println("uploadNewEmployee form requested at: " + LocalDateTime.now());
+        log.info("uploadNewEmployee form requested at: {} " , LocalDateTime.now());
         return "uploadNewEmployee";
     }
 
@@ -108,13 +106,13 @@ public class HomeController {
     public String showManageDepartmentsPage (HttpSession session, Model model){
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+            log.warn("session checker: redirecting has user has not logged in. {} ", LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed: " + LocalDateTime.now());
+        log.info("session check passed: {}", LocalDateTime.now());
 
         //code continues since session check was successful
-        System.out.println("Manage Departments page called from controller " + LocalDateTime.now());
+        log.info("Manage Departments page called from controller {}" , LocalDateTime.now());
         return "ManageDepartments";
     }
 
@@ -123,13 +121,13 @@ public class HomeController {
     public String showuploadNewDepartmentPage (HttpSession session, Model model) {
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+            log.warn("session checker: redirecting has user has not logged in. " , LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed: " + LocalDateTime.now());
+        log.info("session check passed: {}" , LocalDateTime.now());
 
         //code continues since session check was successful
-        System.out.println("uploadNewDepartment page called from controller " + LocalDateTime.now());
+        log.info("uploadNewDepartment page called from controller {}" , LocalDateTime.now());
         return "uploadNewDepartment";
     }
 
@@ -138,13 +136,13 @@ public class HomeController {
     public String showViewAllDepartmentsPage (HttpSession session, Model model) {
         // check for log in session
         if (session.getAttribute("loggedInUser") == null) {
-            System.out.println("session checker: redirecting has user has not logged in. " + LocalDateTime.now());
+           log.info("session checker: redirecting has user has not logged in. {}", LocalDateTime.now());
             return "redirect:/login";
         }
-        System.out.println("session check passed: " + LocalDateTime.now());
+        log.info("session check passed: ", LocalDateTime.now());
 
         //code continues since session check was successful
-        System.out.println("ViewAllDepartments page called from controller " + LocalDateTime.now());
+        log.info("ViewAllDepartments page called from controller " , LocalDateTime.now());
         return "ViewAllDepartments";
     }
 }

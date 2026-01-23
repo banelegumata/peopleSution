@@ -15,9 +15,9 @@ import java.util.Optional;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
 @WebMvcTest(LoginController.class)
 class LoginControllerTest {
+
 
     @Autowired
     private MockMvc mockMvc;
@@ -27,16 +27,20 @@ class LoginControllerTest {
 
     @Test
     void shouldLoginSuccessfully() throws Exception{
+
+        //arrange
         UserCredentials mockUser = new UserCredentials();
         mockUser.setfNumber("1234");
         mockUser.setPassword("pass");
         mockUser.setRole("Admin");
 
-
+        //act
         Mockito.when(loginService.validateLogin("123", "pass")).thenReturn(Optional.of(mockUser));
         mockMvc.perform(post("/loginUserIn")
                         .param("fNumber", "123")
                         .param("password", "pass"))
+
+        //assert
                 .andExpect(status().is3xxRedirection())
                 .andExpect(redirectedUrl("/dashboard"));
 

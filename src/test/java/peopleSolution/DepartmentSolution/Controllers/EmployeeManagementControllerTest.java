@@ -43,6 +43,11 @@ public class EmployeeManagementControllerTest {
         MockitoAnnotations.openMocks(this);
         // Build MockMvc around the controller directly
         mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
+
+        EmployeeEntity existing = new EmployeeEntity();
+        existing.setEmpFName("banele");
+        existing.setEmpID("0000000000001");
+        existing.setfNumber("F0002");
     }
 
     @Nested
@@ -76,7 +81,7 @@ public class EmployeeManagementControllerTest {
         /** Act **/
             mockMvc.perform
                 (
-            post("/addEmployee")
+            post("/manage-employee/addEmployee")
                     .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                     .sessionAttr("loggedInUser", "adminUser")
                     .param("empID", "")
@@ -94,8 +99,10 @@ public class EmployeeManagementControllerTest {
 
         @Test
         @DisplayName("POST /addEmployee where employee exists should return userExist view")
-        void addEmployee_existingEmployee_returnsUserExist () throws Exception{
+        void addEmployee_existingEmployee_returnsUserExists () throws Exception{
         /** Arrange **/
+
+
             EmployeeEntity existing = new EmployeeEntity();
             existing.setEmpID("0000000000001");
             existing.setfNumber("F0002");
@@ -104,12 +111,17 @@ public class EmployeeManagementControllerTest {
 
         /** Act **/
             mockMvc.perform(
-        post("/addEmployee")
+        post("/manage-employee/addEmployee")
                 .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                 .sessionAttr("loggedInUser", "adminUser")
                 .param("empID", "0000000000001")
                 .param("fNumber", "F0002")
-
+                .param("empFName", "Banele")
+                .param("empLName","Gumata")
+                .param("empDepartment","IT")
+                .param("empActiveStatus", "true")
+                .param("empJobTitle", "Dev")
+                .param("empJobDescription", "best in the field")
                 )
         /** Assert **/
                 .andExpect(status().isOk())
@@ -137,11 +149,17 @@ public class EmployeeManagementControllerTest {
 
         /** Act **/
                     mockMvc.perform
-                    (post("/addEmployee")
+                    (post("/manage-employee/addEmployee")
                             .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                             .sessionAttr("loggedInUser", "adminUser")
                             .param("empID", "0000000000001")
                             .param("fNumber", "F0002")
+                            .param("empFName", "Banele")
+                            .param("empLName","Gumata")
+                            .param("empDepartment","IT")
+                            .param("empActiveStatus", "true")
+                            .param("empJobTitle", "Dev")
+                            .param("empJobDescription", "best in the field")
                     )
         /** Assert **/
                             .andExpect(status().isOk())
@@ -152,11 +170,6 @@ public class EmployeeManagementControllerTest {
                 verify(employeeService, times(1)).findByEmpID("0000000000001");
                 verify(employeeService, times(1)).saveEmployee(any(EmployeeEntity.class));
                 verifyNoMoreInteractions(employeeService);
-
-
-
-
-
         }
     }
 
@@ -202,7 +215,7 @@ public class EmployeeManagementControllerTest {
                     /** assert **/
                     .andExpect(status().isOk())
                     .andExpect(view().name("ViewAllUsers"))
-                    .andExpect(model().attributeExists("employee"))
+                    .andExpect(model().attributeExists("employees"))
                     .andExpect(model().attributeDoesNotExist("error"));
 
         }

@@ -57,6 +57,14 @@
 			</exclusions>
 		</dependency>
 
+		<!-- Assert J -->
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>3.25.3</version> <!-- use latest stable -->
+			<scope>test</scope>
+		</dependency>
+
 		<!-- Spring DATA JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
